@@ -1,0 +1,743 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><title>ICS - R & D Projects</title>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+(function(){
+  var bsa = document.createElement('script');
+     bsa.async = true;
+     <!--bsa.src = 'http://www.red-team-design.com/js/adpacks-demo.js';-->
+  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+})();
+</script>
+
+<script>
+$(document).ready(function(){
+
+	$('.accordion h2').click(function(){
+	if( $(this).next().is(':hidden') )
+		{
+		$('.accordion h2').removeClass('active').next().slideUp();		
+		$(this).addClass('active').next().slideDown();
+		}
+		return false;
+	});
+});
+</script>
+<style>
+ 
+
+section 
+{
+	display: block;
+} 
+
+.accordion
+{
+	background-color: #eee;
+ 	border: 1px solid #ccc;
+	width: 700px;
+	padding: 10px;	
+	margin: 30px auto;
+	
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	
+	-moz-box-shadow: 0 1px 0 #999;
+	-webkit-box-shadow: 0 1px 0 #999;
+	box-shadow: 0 1px 0 #999;
+}
+ 
+.accordion section 
+{
+ 	border-bottom: 1px solid #ccc;
+	margin: 5px;
+	
+	background-color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+    background-image: -webkit-linear-gradient(top, #fff, #eee);
+    background-image:    -moz-linear-gradient(top, #fff, #eee);
+    background-image:     -ms-linear-gradient(top, #fff, #eee);
+    background-image:      -o-linear-gradient(top, #fff, #eee);
+    background-image:         linear-gradient(top, #fff, #eee);
+  
+  	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.accordion h2
+{
+	margin: 0;
+	color:#0099cc;
+	
+}
+
+ .accordion p
+{
+	margin: 0;
+	
+}
+
+.accordion div
+{
+	height: 280px;
+	display: none;
+}
+
+.accordion p
+{
+	padding: 10px;
+	text-align:justify;
+}
+ 
+.accordion h2 a 
+{
+	display: block;
+	position: relative;
+	font: 14px/1 'Trebuchet MS', 'Lucida Sans', Arial, Helvetica;
+	padding: 10px;
+	color: #333;
+	outline: 0;
+	text-decoration: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-weight:bold;
+	 
+}
+
+.accordion h2 a:hover 
+{
+	background: #fff;
+	color:#0099cc;
+}
+ 
+.accordion h2.active a:after 
+{  
+    content: '';
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -3px;
+	border-top: 5px solid #333;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;	
+}
+</style><!-- InstanceBegin template="/Templates/Template_icsWebsite_24032012.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Innovation Communications Systems" content="index, follow" />
+  <meta name="keywords" content="Communication, Signal Analysis, Innovation, Narrow Band, Wide Band, Interceptor, Audio or Voice Compression, Optimizer, Surveillance, Telecome, Security, NMS Protocol, Innovation, RTOS, OPICOM, Radar Signal Analysis, Audio or Vedio Recorder, Industrial Computer, QPSK Modem, Operator Intercom. " />
+  <meta name="description" content="Software Company" />
+	<style type="text/css">
+/*********** Social Media Icons *********************/
+
+
+#iconplacer a {margin-right:3px;text-indent:-10000px;float:left;
+transition: background-position 1s ease-out; 
+-webkit-transition: background-position 1s ease-out; 
+-o-transition: background-position 1s ease-out; 
+}
+
+.rssfollow{
+width:60px; height:50px;
+background:url(images/iconsfollow.png) no-repeat -10px 10px;
+}
+
+.facebook{
+width:62px; height:50px;
+background:url(images/iconsfollow.png) no-repeat -75px 10px;
+}
+
+.twitterfollow{
+width:60px; height:50px;
+background:url(images/iconsfollow.png) no-repeat -142px 10px;
+}
+
+.flickr{
+width:60px; height:50px;
+background:url(images/iconsfollow.png) no-repeat -273px 10px;
+}
+
+
+
+/* Hover */
+.rssfollow:hover{
+background:url(images/iconsfollow.png) no-repeat -10px 0px;
+}
+.facebook:hover{
+background:url(images/iconsfollow.png) no-repeat -75px 0px;
+}
+.twitterfollow:hover{
+background:url(images/iconsfollow.png) no-repeat -142px 0px;
+}
+
+.flickr:hover{
+background:url(images/iconsfollow.png) no-repeat -273px 0px;
+}
+</style>
+	<title></title>
+    
+    <script src="Index/js/jquery-1.7.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="screen.css" media="screen" />
+   <script src="Index/js/functions.js" type="text/javascript"></script>
+    <script language="javascript" src="Scripts/enquiry.js"></script>
+    <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+    <link href="Scripts/menu.css" type="text/css" rel="stylesheet" />
+<script src="Scripts/menu.js" type="text/javascript"></script>
+    <script language=JavaScript>
+<!--
+
+//Disable right click script 
+var message="";
+///////////////////////////////////
+function clickIE() {if (document.all) {(message);return false;}}
+function clickNS(e) {if
+(document.layers||(document.getElementById&&!document.all)) {
+if (e.which==2||e.which==3) {(message);return false;}}}
+if (document.layers)
+{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+
+document.oncontextmenu=new Function("return false")
+// -->
+    </script>
+    <link rel="icon" href="ICSlogo.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="ICSlogo.ico" type="image/x-icon"> 
+</head>
+<body>
+
+<div id="header">
+
+<div><img src="images/header1.png" style="background-repeat:no-repeat; position:relative; margin-top:0%" /></div>
+<div align="right"><img src="images/resolution.png" style="background-repeat:no-repeat; top:0%; left:52%; position:absolute; " /></div>
+<div><img src="images/icslogo.png" style="background-repeat:no-repeat; top:2%; left:5%; position:absolute;" />
+<div style=""><a><img src="images/icsName.png" style="background-repeat:no-repeat; top:10%; left:50%; position:absolute;" /></a></div>
+</div>
+<!--<object 
+classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" 
+codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" 
+width="122" height="80" title="ICS_Clients">
+                          <param name="movie" value="ics_clients.swf">
+                          <param name="quality" value="high">
+                          <embed src="images/ICSHeaderFlash.swf" quality="high" 
+pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"
+width="100%" height="216"></embed>  </object>-->
+
+
+
+<div id="translate-this" style="top:3.8%; left:83%; position:absolute;" ><a href="http://translateth.is/" class="translate-this-button"></a></div>	
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="http://x.translateth.is/translate-this.js"></script>
+  <script type="text/javascript">
+			TranslateThis();
+			</script><!-- End TranslateThis Button -->
+             <!-- Search -->
+				  <!--<div class="search-expand"></div>
+					<div id="search">
+						<div class="retract-button">
+							<p>retract</p>
+					  </div>
+						<form action="" method="post">
+							<input type="text" class="field" value="Search" title="Search" />
+							<input type="submit" value="" class="submit-button" />
+						</form>						
+  </div>-->
+					<!-- END Search -->
+<!--code for horizontal drop down menu-->
+<!--<div id="container"">			
+--><div style="width:100%; background:url(images/nav_bg.gif) repeat-x top left; display:block; height:30px;">
+				<!--<ul style="margin-left:10%">-->
+               
+				<ul id="menu" >
+					<li style="width:8em; text-align:center;" ><a href="index.html" >Home</a></li>
+			        <li  style="width:8em; text-align:center;""><a href="videosurveillance.html" id="">Defence</a>
+                          <ul style="text-align:left;">
+                          
+                          <li style="width:15em;"  class="" title="Wide Band Digital Recorder"><a href="wbdr.html">Wide Band Digital Recorder</a></li>
+                    <li style="width:15em;" class="" title="Digital Audio Recorder"><a href="dar.html">Digital Audio Recorder</a></li>
+                    <li style="width:15em;" title="Digital Audio & Data Recorder"><a href="ddar.html">Digital Audio & Data Recorder</a></li>
+                    <li style="width:15em;" class="" title="Narrow Band Signal Analyzer"><a href="arm.html">Narrow Band Signal Analyzer</a></li>
+                    <li style="width:15em;" class="" title="FDM Signal Analyser"><a href="fdmsa.html">FDM Signal Analyser</a></li>
+                    <li style="width:15em;" class="" title="OPICOM"><a href="intercom.html">Operator Intercom</a></li>
+                    <li style="width:15em;" class="" title="Data Logger with SS7"><a href="datalogger.html">Data Logger with SS7</a></li> 
+                    <li style="width:15em;" class="" title="QPSK Modem"><a href="qpsk.html">         Satcom QPSK Modem</a></li>
+                    <li style="width:15em;" class="" title="SIP Stack for SIP Client "><a href="sssc.html">         SIP Stack for SIP Client </a></li>
+                       <li style="width:15em;" class="" title="DCME Interceptor"><a href="dcmeinterceptor.html">DCME Interceptor</a></li>
+                     <li style="width:15em;" class="" title="A.bis Interceptor"><a href="abisinterceptor.html">A.bis Interceptor</a></li>                   <li style="width:15em;" class="" title="Software Defined Radio System"><a href="sdr.html">Software Defined Radio</a></li>
+                  <li style="width:15em;" class="" title="VOIP Recorder"><a href="voiprecorder.html">VOIP Recorder</a></li>
+                  
+                   <li style="width:15em;" class="" title="Technique Counter Modulation Generator"><a href="tcmg.html">TCMG</a></li>
+                    <li style="width:15em;" class="" title="Spectrum Processor Module"><a href="spm.html">Spectrum Processor </a></li>
+                     <li style="width:15em;" class="" title="Baseband Identification and Detection System "><a href="bids.html">BIDS </a></li>
+                  
+                  
+					  </ul>
+                  </li>
+					<li  style="width:8em; text-align:center;"><a href="telecom.html">Telecom</a>
+                    <ul style="text-align:left;" class="">
+					 <!-- <li class="" title="Software Defined Radio System"><a href="../sdr.html">Software Defined Radio</a></li>
+                  <li class="" title="VOIP Recorder"><a href="../voiprecorder.html">VOIP Recorder</a></li>-->
+                                     
+                   
+                    <!-- <li class="" title="DCME Interceptor"><a href="../dcmeinterceptor.html">DCME Interceptor</a></li>
+                     <li class="" title="A.bis Interceptor"><a href="../abisinterceptor.html">A.bis Interceptor</a></li>-->                    
+                      <li style="width:12em;" class="" title="Ringer Cards"><a href="ringercards.html">Ringer Cards</a></li>
+                       
+                                        <li style="width:12em;"class="" title="Relaysets"><a href="relaysets.html">Relay Sets</a></li>
+                   
+                <!--   <li style="width:12em;" class="" title="A.bis Optimizer upto 3:1-Voice Compression"><a href="../abisoptimizer.html">A.bis / A.ter Optimizer</a></li>-->
+                   <li style="width:12em;" class="" title="QPSK Modem"><a href="qpsk.html">Satcom QPSK Modem</a></li>
+                    
+                    <!--<li class="" title="A.ter Optimizer upto 3:1-Voice Compression"><a href="../ateroptimizer.html">A.ter Optimizer</a></li>-->
+                     <li style="width:12em;" class="" title="KVM"><a href="kvm.html">KVM</a></li>  
+                     <li style="width:12em;" class="" title="Multiplexing"><a href="multiplexing.html">Multiplexing Equipment</a></li>
+                    <li style="width:12em;" class="" title="VQE"><a href="vqe.html" title="VOICE QUALITY ENHANCEMENT DEVICE">VQE</a></li>      
+                       
+                    <li style="width:12em;" class="" title="Voice Compression"><a href="voicecompression.html">Voice Compression &nbsp;&nbsp;&nbsp;    <b>></b></a>
+                    
+                    <ul style="text-align:left;" >                    
+                    <li style="width:16em;" class="" title="ADPCM Transcoder"><a href="voicecompression.html">ADPCM Transcoder</a></li>
+                    <li style="width:16em;" class="" title="DCME 20:1 Voice Compression"><a href="dcme20-1.html">DCME 20:1 Voice Compression</a></li>
+                    <li style="width:16em;" class="" title="A.bis/A.ter Optimizer"><a href="abisoptimizer.html">A.bis / A.ter Optimizer</a>
+                    </li>
+                    </ul>   </li>    
+                    </ul>
+                  </li>
+					<li  style="width:8em; text-align:center;"><a href="security.html">Security </a>
+                      <ul style="text-align:left;" class="">
+                      <li style="width:15em;" class="" title="Security Surveillance"><a href="videosurveillance.html">Video Surveillance</a></li>
+                      <li style="width:15em;" class="" title="Digital Audio Recorder"><a href="dar.html">Digital Audio Recorder</a></li>
+                       <li style="width:15em;" class="" title="Digital Audio & Data Recorder"><a href="ddar.html">Digital Audio & Data Recorder</a></li>
+					<!--<li style="width:15em;" class="" title="DCME upto 20:1-Voice Compression"><a href="../voicecompression.html">DCME-Voice Compression</a></li>-->
+                     <li style="width:15em;" class="" title="DCME Interceptor"><a href="dcmeinterceptor.html">DCME Interceptor</a></li>
+                     <li style="width:15em;" class="" title="A.bis Interceptor"><a href="abisinterceptor.html">A.bis Interceptor</a></li>
+                    <!--<li class="" title="A.bis Optimizer upto 3:1-Voice Compression"><a href="../abisoptimizer.html">A.bis Optimizer</a></li>-->
+                    <li style="width:15em;" class="" title="Data Logger with SS7"><a href="datalogger.html">Data Logger with SS7</a></li>                      
+                    <li style="width:15em;" class="" title="KVM"><a href="kvm.html">KVM</a></li>  
+                           
+                    </ul>
+                    
+                    
+                    
+                  </li>
+					<li  style="width:8em; text-align:center;"><a href="research.html">Research</a>
+                    <ul style="text-align:left;" class="">
+                    <li style="width:17em;" class="" title="Turnkey Projects of ICS"><a href="turnkeyprojects.html">Turnkey Projects</a></li>
+                    <li style="width:17em;" class="" title="NMS Protocol Converter"><a href="nmspc.html"> Protocol Conversion</a></li>
+                    <li style="width:17em;" class="" title="OPICOM"><a href="intercom.html">Operator Intercom</a></li>
+                    
+                     <li style="width:17em;" class="" title="IF Signal Analysis"><a href="ifsignalanalysis.html">IF Signal Analysis </a></li>
+                     
+                      <li style="width:17em;" class="" title="Radar Data Acquisition & Analysis"><a href="radaracquisition.html">Radar Data Acquisition & Analysis</a></li>
+                     <li style="width:17em;" class="" title="Software Defined Radio System"><a href="sdr.html">Software Defined Radio</a></li>
+                     
+                    </ul>
+                    
+                  </li>
+					<li  style="width:8em; text-align:center;" ><a href="services.html">Services</a>
+                    <ul style="text-align:left;" class="">
+					<li style="width:12em;" class="" title="Customozied Software Development"><a href="swServices.html">Software Services</a></li>
+                    <li style="width:12em;" class="" title="RTOS Application  Development"><a href="designndevelopment.html"> Design & Development</a></li>
+                      <li style="width:12em;" class="" title="Windows/Linux Application  Development"><a href="networking.html">Networking</a></li>
+                       <li style="width:12em;" class="" title="Mobile Application  Development"><a href="turnkeysolutions.html">Turnkey Solutions</a></li>
+                        <li style="width:12em;" class="" title="Wireless Solutions"><a href="wirelesssolutions.html">Wireless Solutions</a></li>
+                   <li style="width:12em;" class="" title="Projects Undertaken"><a href="projectsundertaken.html">Projects Undertaken</a></li>                               
+                          <!--<ul class="">
+					<li class="" title="Technique Counter Modulation Generator"><a href=""><img src="" title="Technique Counter Modulation Generator"/>Technique Counter Modulation Generator</a></li>
+                    </ul>
+                          </li>-->
+					</ul>
+                    
+                  </li>
+					<!--<li><a href="/category/lifestyle">Approvals</a>
+                    <ul class="">
+					<li class="" title="ISO 9001-2008 Certified Company"><a href=""><img src="" title="ISO 9001-2008 Certified Company"/>ISO 9001-2008</a></li>
+                    <li class="" title="CEMILAC Approved"><a href=""><img src="" title="CEMILAC Approved"/> CEMILAC</a></li>
+                     <li class="" title="R & D Recognition"><a href=""><img src="" title="R & D Recognition "/> R & D Recognition</a></li>
+                    </ul>
+                    </li>				
+					<li><a href="" id="m-blogs">Mobile Appln</a></li>
+				<!--	<li><a href="" id="m-blogs">Quality STDs</a>
+                    
+                    <ul class="">
+					<li class="" title=""><a href=""><img src="" title=""/>IEEE 12207</a></li>
+                    <li class="" title=""><a href=""><img src="" title=""/>DOD 498</a></li>
+                    <li class="" title=""><a href=""><img src="" title=""/>MIL STD 461E, 810 D/E</a></li>
+                    <li class="" title=""><a href=""><img src="" title=""/>DO 178</a></li>
+                    <li class="" title=""><a href=""><img src="" title=""/>JSS 55555</a></li>
+                    <li class="" title=""><a href=""><img src="" title=""/>IV & V Compliance</a></li>
+                    
+                    </ul>
+                    </li>-->
+                    <li  style="width:8em; text-align:center;"><a href="aboutus.html" id="m-blogs">About Us</a>	
+                    <ul style="text-align:left;" class="">
+					<li style="width:13em;" class="" title="Clients"><a href="clients.html"> Clients</a></li>
+                    <li style="width:13em;" class="" title="Contact Us"><a href="contactus.html"> Contact Us</a></li>
+                    <!--<li class="" title="Approvals"><a href=""><img src="" title="Approvals"/> Approvals</a></li>-->
+                    <li style="width:13em;" class="" title="Quality STDs"><a href="qualitystds-approvals.html">Quality STDs & Approvals</a></li>
+                    <li style="width:13em;" class="" title="Careers"><a href="careers.html"> Careers</a></li>
+                    <!--<li class="" title="Enquiry Form"><a href="../enquiry.html"> Enquiry Form</a></li>-->
+                  
+                    <li style="width:13em;" class="" title="Sitemap"><a href="sitemap.html"> Sitemap</a></li>
+                  
+                      </ul>
+                    
+                  </li>
+	</ul>
+	<!--  </div>-->
+	</div>
+<!--<p id="layoutdims">topMeasure columns in: <a href="http://matthewjamestaylor.com/blog/ultimate-2-column-left-menu-pixels.htm">Pixel widths</a> | <a href="http://matthewjamestaylor.com/blog/ultimate-2-column-left-menu-ems.htm">Em widths</a> | <strong>Percentage widths</strong></p>-->
+</div>
+<div class="colmask leftmenu">
+	<div class="colleft"><!-- InstanceBeginEditable name="PageContents" -->1
+	    <div class="col1">
+		  <!-- Column 1 start -->      <div align="right"><a href="data/pdf/ICSProfile.pdf" target="_blank" class="download-pdf-block"  title="Download ICS Profile"><span style="font-weight:bold; font-size:10px; font-family:Verdana, Geneva, sans-serif;">Download ICS-Profile</span></a></div>
+<div class="pageHead">&nbsp;&nbsp;<h2 class="pageHeadText">R & D Projects</h2></div>
+  <div class="tree" ><a href="index.html" style="font-size:10px; font-style:italic">Home</a>&nbsp;&raquo;&nbsp; R & D  Projects</div>
+  <p align="justify" class="welcomeText">  
+ICS executed a number of turnkey projects in data communication software development, embedded systems design and application software development for major public sector undertaking and private sector organizations. A brief summary of some of the major projects is given below. </p>
+<div class="accordion">
+		
+			<section id="one">
+				<h2 align=""><a href="#one"><img src="images/blue_arrow_right.png" alt="a" width="13" height="12" hspace="10" border="0" align="left" style="margin-top:2px; margin-right:10px;" />Analysis and Recording Module (ARM)</a></h2>
+
+				<div>
+					<p>The Analysis and recording module (ARM) is intended to perform Analysis and Recording of intelligence carried by communication signals provided at the IF and audio levels from two independent Receiver channels. Realized as ATR mountable functional modules, ARM is provided with two sets of inputs, either of which can be selected for monitoring or Analysis by a Digital Signal Analyzer and Decoder, the decoded or demodulated outputs are recorded in digital format by digital recorder. This subsystem needs to be realized in VME 64 based Modules suitable for packaging in a ¾ ATR modules.</p>
+<p>       ARM can be operated from a server through ethernet LAN using a Command-Response protocol over the TCP/IP. ARM is capable of performing the Coarse analysis, Modulation Classification, Parametere extraction, digital demodulation, code recognition, decoding, recording and replay of input signals.</p>
+<strong style="color:#36C">Client - DLRL-Defence Lab</strong> 
+<a href="data/pdf/arm.pdf" target="_blank" style="margin-left:400px; background-image:url(images/icon-pdf.gif); background-repeat:no-repeat; padding-left:15px;" >Brochure</a>
+				</div>
+			</section>
+			
+			<section id="two">
+			  <h2 align=""><a href="#two" ><img src="images/blue_arrow_right.png" alt="a" width="13" height="12" hspace="10" border="0" align="left" style="margin-top:2px; margin-right:10px;"/>Technique Counter Modulation Generation System</a></h2>
+				<div>
+					<p>The Technique Counter Modulation Generator(TCMG), is meant for generating modulated signals with assorted types of modulations and modulating signals in the frequency range of 1.5 MHz to 30 MHz with a resolution of 1 Hz by taking commands from an external controller unit. The system is developed using state of the art technologies like Direct Digital Synthesizer, Programmable Digital Attenuators, Phase locked Oscillators, high stability OCXOs and Digital Signal Processors. The system has the capability of working as a standalone system when the local mode is selected. The high stability reference oscillator output of the system can be used as external reference input to the other systems. The system features very high stability, resolution and response time.</p>
+<strong style="color:#36C">Client - DLRL-Defence Lab</strong> 
+				</div>
+	  </section>
+			
+			<section id="three">
+				<h2 align=""><a href="#three" ><img src="images/blue_arrow_right.png" alt="a" width="13" height="12" hspace="10" border="0" align="left" style="margin-top:2px; margin-right:10px;" />Baseband Identification And Detection System </a></h2>
+				<div>
+					<p>The “Baseband identification & Detection System (BIDS)” consists of Signal Processing Hardware housed in an industrial – Grade 19” rack mountable PC. The application software on the PC provides the necessary GUI for signal analysis / display of the identified parameters. The IF Signal (455 KHz) is down – converted and analyzed in the digital domain & the demodulation is carried out. The voice signal will be made available at audio port. Digital data will be made available at a data port and also will be stored in a file for storage and off line processing. </p>
+                    <strong style="color:#36C">Client - DLRL-Defence Lab</strong> 
+				</div>
+			</section>
+
+			
+			<section id="four">
+				<h2 align=""><a href="#four" align="center"><img src="images/blue_arrow_right.png" alt="a" width="13" height="12" hspace="10" border="0" align="left" style="margin-top:2px; margin-right:10px;" />Digital Audio Recording System  </a></h2>
+				<div>
+					<p>The four channel digital audio recorder is based on the audio interface card technology developed by ICS indigenously. It converts the analog audio signals into PCM Coded 64 Kbps digital data and stores it in to either a Hard Disk or a Compact Disk depending on the requirement. Each channel of the recorder is independent of the other channels and uses its own interface card. Hence either it can be down scaled to one channel or extended up to 8 channels. Since all the channels are independent of each other, simultaneous recording and replay is possible. Any of the channels can be used for recording or replay. The recorder accepts input from Tape/Microphone.
+</p>		<strong style="color:#36C">Client - DLRL-Defence Lab</strong> 
+	<a href="data/pdf/ICS-SC-DAR.pdf" target="_blank" style="margin-left:400px; background-image:url(images/icon-pdf.gif); background-repeat:no-repeat; padding-left:15px;" >Brochure</a>							
+				</div>
+			</section>
+			
+			<section id="five">
+				<h2 align=""><a href="#five" align="center"><img src="images/blue_arrow_right.png" alt="a" width="13" height="12" hspace="10" border="0" align="left" style="margin-top:2px; margin-right:10px;"/>Simulator for Base Band Identification system</a></h2>
+
+				<div>
+					<p>The BIDS Simulator is a PC based system, with a PC add-on card to provide the required functionality for generating the necessary output signals for the data. The system takes the input from the keyboard. This input is in the form of data entered in a Graphical User Interface (GUI) screens for various parameters. The output will be on a monitor to display the data or through a serial interface for the data signals.</p>
+                    <strong style="color:#36C">Client - DLRL-Defence Lab</strong> 
+				</div>
+
+			</section>
+			
+            
+            <section id="six">
+				<h2 align=""><a href="#six" align="center">	<img src="images/blue_arrow_right.png" alt="a" width="13" height="12" hspace="10" border="0" align="left" style="margin-top:2px; margin-right:10px;" />Voice Band Data Signal Analyser</a></h2>
+				<div>
+					<p>The DSP based Data acquisition add-on card is built around dual Tiger SHARC Analog Devices DSPs with 128 MB SDRAM and additional circuitry for input signal interface. The two-channel voice frequency signal is selectable by a switch, controlled by DSP. An audio interface circuit is provided to route the voice frequency signal to headphone for operator listening. The voice frequency signal is also given to A/D converter, which will convert the analog data to its digital equivalent. The digital data is processed by the DSP to carry out the spectral, temporal and statistical analysis; classification of voice, noise, silence or data; identification of voice band data signal modulations and feature extraction. The board also consists of an FPGA to interface the DSP to the rest of the circuitry and communicate with the PCI controller. The card is capable of recording the input voice band signal clip of 60 seconds in a RAM buffer, which is to be analyzed by a separately designed DSP based demodulator card.</p>										
+				 <strong style="color:#36C">Client - DLRL-Defence Lab</strong><a href="data/pdf/vbdsa.pdf" target="_blank" style="margin-left:400px; background-image:url(images/icon-pdf.gif); background-repeat:no-repeat; padding-left:15px;" >Brochure</a> </div>
+			</section>
+            
+            
+            <section id="seven">
+				<h2 align=""><a href="#seven" align="center"><img src="images/blue_arrow_right.png" alt="a" width="13" height="12" hspace="10" border="0" align="left" style="margin-top:2px; margin-right:10px;"/>	Base Band Processor module </a></h2>
+				<div style="font-size:11px;">
+					<p >The Base Band Processor Module (BPM) generates modulated IF signals and demodulates the received IF signals. Themodulated signal can be digitized voice (PCM or VOCODER) or data (Asynchronous or Synchronous). Through this module we can process both NB(Narrow Band) & WB(Wide Band) Signals.The IF is 455 KHz. The types of modulation and demodulation to be supported are:
+       <ul id="list">
+       <li>AM (Amplitude Modulation)</li>
+       <li>FM (Frequency Modulation)</li>
+       <li>CPFSK (Continuous phase frequency shift keying)</li>
+       <li>Π/4 DQPSK (Π/4 Shifted, Differentially Encoded Quadrature Phase Shift Keying)</li>
+      <li> D8PSK (8 Array Differential Phase Shift Keying).</li></ul>
+The IF bandwidth is 5 KHz or 6.25 KHz or 12.5 KHz or 25 KHz based on data rate of source (voice or data) according to input signal coming from control card (Frequency Hoping). At a given time, only voice or data will be present and the information modulated is either ?coded voice? or ?asynchronous data? or ?synchronous data?. In BBP for secure data transfer and reception forward error correction (FEC) and encryption takes place depending upon control signals from control card. </p>										
+				<strong style="color:#36C">Client - ECIL</strong><a href="data/pdf/bbp.pdf" target="_blank" style="margin-left:400px; background-image:url(images/icon-pdf.gif); background-repeat:no-repeat; padding-left:15px;" >Brochure</a> </div>
+			</section>
+            
+            
+            <section id="eight">
+				<h2 align=""><a href="#eight" align="center">	<img src="images/blue_arrow_right.png" alt="a" width="13" height="12" hspace="10" border="0" align="left" style="margin-top:2px; margin-right:10px;"/>Control Processor module</a></h2>
+				<div>
+					<p>Control Card, is the master controller for the entire radio. It configures and commands various modules of the radio and provides MMI (user interface) through Front Panel and Remote Control. Its functions/specifications can be listed as follows:</p>
+                    <ul id="list">
+     <li> Implementing Man Machine Interface (MMI).</li>
+            It includes interfacing
+                  a) Keyboard
+                  b) Remote Control Unit (RCU)
+                  c) Fill Gun.
+     <li> Configuring the Radio</li>
+     <li>  Initiate Built In Test.</li>
+     <li>  Provide LEDs / Display for visual indications for status and health of the radio.</li>
+     <li> Implement ECCM (Frequency Hopping scheme) for secure operations.</li></ul>
+<p>Over all control opertions and BIT(Built in Test) are carried out through IIC .</p>	
+                    <strong style="color:#36C">Client - ECIL</strong><a href="data/pdf/cc.pdf" target="_blank" style="margin-left:400px; background-image:url(images/icon-pdf.gif); background-repeat:no-repeat; padding-left:15px;" >Brochure</a> <br />									
+				</div>
+			</section>
+            
+            <section id="nine">
+				<h2><a href="#nine"><img src="images/blue_arrow_right.png" alt="a" width="13" height="12" hspace="10" border="0" align="left" style="margin-top:2px; margin-right:10px;"/>DSP Based Spectrum Analyser</a></h2>
+				<div>
+					<p>	
+
+The DSP based Data acquisition add-on card is built around dual Tiger SHARC Analog Devices DSPs with 128 MB SDRAM and additional circuitry for input signal interface. The two-channel voice frequency signal is selectable by a switch, controlled by DSP. An audio interface circuit is provided to route the voice frequency signal to headphone for operator listening. The voice frequency signal is also given to A/D converter, which will convert the analog data to its digital equivalent. The digital data is processed by the DSP to carry out the spectral, temporal and statistical analysis; classification of voice, noise, silence or data; identification of voice band data signal modulations and feature extraction. The board also consists of an FPGA to interface the DSP to the rest of the circuitry and communicate with the PCI controller. The card is capable of recording the input voice band signal clip of 60 seconds in a RAM buffer, which is to be analyzed by a separately designed DSP based demodulator card.
+</p>										
+			<strong style="color:#36C">Client - ECIL</strong> 			</div>
+			</section>
+            
+            <section id="ten">
+				<h2><a href="#ten" ><img src="images/blue_arrow_right.png" alt="a" width="13" height="12" hspace="10" border="0" align="left" style="margin-top:2px; margin-right:10px;"/>Satcom QPSK Modem</a></h2>
+				<div>
+					<p>The design and development of state of the art FPGA based QPSK modem for integration with base band DAMA processor system as part of SATCOM DAMA terminal.</p>
+                    <ul id="list">
+     <li> QPSK Modem will provides modulation and demodulation at 70MHz IF with 5kHz and 25 kHz Bandwidth.</li>
+    <li> It Supports different data 2.88Kbps bps at 5kHz bandwidth and 19200 bps at 25kHz bandwidth.</li>
+    <li> Forward Error Correction will be done at rate ½ and constraint length (k) 7 (Coding and Decoding used are
+       convolution and viterbi).</li>
+    <li> Modem interfaces to UHF SATCOM radios with 70MHz interface.</li>
+     <li>It will provide asynchronous RS422 and RS232 Interfaces for external control.</li></ul>	
+      <strong style="color:#36C">Client - ECIL</strong><a href="data/pdf/SQM_Flier.pdf" target="_blank" style="margin-left:400px; background-image:url(images/icon-pdf.gif); background-repeat:no-repeat; padding-left:15px;" >Brochure</a> 									
+				</div>
+			</section>
+            
+            <section id="elevan">
+				<h2><a href="#elevan" align=""><img src="images/blue_arrow_right.png" alt="a" width="13" height="12" hspace="10" border="0" align="left" style="margin-top:2px; margin-right:10px;"/>Acoustic Emission Sensor Network</a></h2>
+				<div>
+					<p>The Acoustic Emission Sensor Network consists of the following components:</p>
+       <ul id="list">
+       <li>Embedded AE nodes</li>
+      <li> Zigbee to WiFi Converter</li>
+      <li> Cluster Server</li></ul>
+<p>The design and Development of Embedded AE nodes will be based on the MSP430 microcontroller solution. The Embedded AE nodes will acquire data from the AES (Acoustic Emission Sensor) sensor, compute derived AES parameters, maintain time of detection of signal and frame the messages and send them to a Cluster Server on a wireless network, which is based on ZigBee technology. The nodes will accept and implement configuration changes from the Linux based Cluster Server.</p>										
+				<strong style="color:#36C">Client-IGC for Atomic Research,Kalpakkam,TN</strong><a href="data/pdf/aenu.pdf" target="_blank" style="margin-left:400px; background-image:url(images/icon-pdf.gif); background-repeat:no-repeat; padding-left:15px;" >Brochure</a> </div>
+			</section>
+            <section id="twelve">
+				<h2 align=""><a href="#four" align="center"><img src="images/blue_arrow_right.png" alt="a" width="13" height="12" hspace="10" border="0" align="left" style="margin-top:2px; margin-right:10px;" />Digital Audio & Data Recorder  </a></h2>
+				<div>
+					<p>The Twelve Channel Digital Data and Audio Recorder (DDAR (Model No: ICS-DDAR-12C-3UR)) is used to record the analog audio inputs from four monitoring receivers and four operator mikes connected at OPICOM (these eight will be extend to the DDAR), data input from two Ethernet LANs and two RS-232 Ports. Four operators from four Controller posts will be controlled the DDAR via LAN. For each operator will get a pair of audio ports (one is Receiver input and another one is Voice annotation from his MIC of the headset). The digitized audio signals or Ethernet data or RS-232 data are stored as separate audio and data files on the hard disk. It uses inbuilt hard disk as a primary medium for record and replay. On DDAR, operating system (OS) and application software will be on a Compact Flash drive and recording will be on HDD. CD R/W drive is also provided for backup. RAID configuration is also provided for data redundancy (RAID1 - data mirroring) with two hard disks. DDAR supports to convert the audio file format from .wav to .mp3 and vice versa while taking the backup and restore respectively. DDAR is supported the audio and data compression for recording and on the fly replaying of the compressed audio/data files. While recording is in progress the operator can replay an old file on a separate channel.
+</p>		<strong style="color:#36C">Client - BEL-Ghaziabad</strong> 
+	<a href="data/pdf/DDAR_Flier.pdf" target="_blank" style="margin-left:400px; background-image:url(images/icon-pdf.gif); background-repeat:no-repeat; padding-left:15px;" >Brochure</a>							
+				</div>
+			</section>
+            
+            <section id="thirteen">
+				<h2><a href="#four" align=""><img src="images/blue_arrow_right.png" alt="a" width="13" height="12" hspace="10" border="0" align="left" style="margin-top:2px; margin-right:10px;" />Burst Generator / Tester Software - For defence applications</a></h2>
+				
+			</section>
+            
+            <section id="fourteen">
+				<h2><a href="#four" align=""><img src="images/blue_arrow_right.png" alt="a" width="13" height="12" hspace="10" border="0" align="left" style="margin-top:2px; margin-right:10px;"/>Coder Decoder Software - For defence applications </a></h2>
+				
+			</section>
+            
+	</div>
+			<!-- Column 1 end -->
+		</div><!-- InstanceEndEditable -->
+		<div class="col2">
+			<!-- Column 2 start -->
+			<!--<div id="ads"></div>-->
+			<h2>&nbsp;</h2>
+			<!-- Column 2 end -->
+            
+            <div id="sidebar1">
+     <h4><a class="ex3" href="index.html"  style="color:#0099cc; a:hover{#F30};""> Home</a></h4>
+    <h4><a class="ex3" href="products.html" style="color:#0099cc; a:hover{#F30};"> Products</a></h4>
+    	<ul class="sidemenu">               <li><a href="telecom.html">Telecom</a></li>
+                    		<li><a href="security.html">Security & Surveillance</a></li>
+                            <li><a href="webdesign.html">Web Technology</a></li> 
+                            <li><a href="elearning.html">eLearning</a></li>   
+                            <!--<li><a href="../educationalproducts.html">Education</a></li> -->
+                            <li><a href="sssc.html">Mobile</a></li> 
+                    		<li><a href="otherproducts.html">Others</a></li>   
+  
+
+        </ul>
+    <h4><a class="ex3" href="services.html" style="color:#0099cc; a:hover{#F30};"> Services</a></h4>
+    	<ul class="sidemenu">
+        	 <li><a href="swServices.html">Software Services</a></li> 
+             <li><a href="designndevelopment.html">Design & Development</a></li> 
+            <li><a href="networking.html">Networking</a></li>
+            <li><a href="turnkeysolutions.html">Turnkey Solutions</a></li>                    		
+           
+                 
+<li><a href="wirelesssolutions.html">Wireless Solutions</a></li>
+<li><a href="projectsundertaken.html">Projects Undertaken</a></li> 
+        </ul>
+    
+        
+     <!--   <h3>Software Services</h3>
+    	<ul class="sidemenu">
+        	<li><a href="../datanetworking.html">Networking</a></li>            
+<li><a href="../videosurveillance.html">Security</a></li>
+<li><a href="../webdesign.html">Web</a></li>
+        	<li><a href="../educationalproducts.html">Education</a></li>
+        	<li><a href="../elearning.html">eLearning</a></li>
+        	     
+        </ul>-->
+    <h4><a class="ex3" href="research.html" style="color:#0099cc; a:hover{#F30};"> Research</a></h4>
+    
+    <ul class="sidemenu">           <li><a href="turnkeyprojects.html">Turnkey Projects </a></li>
+     <li><a href="nmspc.html">Protocol Conversion </a></li>
+      <li><a href="intercom.html">Operator Intercom </a></li>
+      <li><a href="ifsignalanalysis.html">IF Signal Analysis</a></li> 
+        
+   
+                    		<li><a href="radaracquisition.html">Radar Data Acquisition & Analysis</a></li>
+                             <li><a href="sdr.html">Software Defined Radio </a></li>
+                    		
+  
+
+    </ul>
+    <h4><a class="ex3" href="rndproject.html"  style="color:#0099cc; a:hover{#F30};""> R & D Projects</a></h4>
+    <h4><a class="ex3" href="clients.html" style="color:#0099cc; a:hover{#F30};"> Clients</a></h4>
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="122" height="80" id="FlashID" title="ICS Clients">
+      <param name="movie" value="images/ics_clients.swf" />
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="8.0.35.0" />
+      <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+      <param name="expressinstall" value="Scripts/expressInstall.swf" />
+      <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+      <!--[if !IE]>-->
+      <object type="application/x-shockwave-flash" data="images/ics_clients.swf" width="122" height="80" style="margin-left:25%;">
+        <!--<![endif]-->
+        <param name="quality" value="high" />
+        <param name="wmode" value="opaque" />
+        <param name="swfversion" value="8.0.35.0" />
+        <param name="expressinstall" value="Scripts/expressInstall.swf" />
+        <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+        <div>
+          <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+          <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+        </div>
+        <!--[if !IE]>-->
+      </object>
+      <!--<![endif]-->
+    </object>
+    <h4 class="ex3" href="#" style="color:#0099cc; a:hover{#F30};"> Associates</h4>
+    <img src="images/alv_ani.gif" width="120" height="100" alt="Associates" style="margin-left:25%;" />
+<!-- end #sidebar1 --></div>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<div align="left" style="background-image:url(images/bottom1.jpg); background-repeat:repeat-x; height:147px; width:100%;">
+    <div><img src="images/icslogo.png" style="background-repeat:no-repeat; margin-top:1%; margin-left:5%; position:absolute;" /></div>
+      <!--<div style="margin-left:90px; margin-top:25px; position:absolute;">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="124" height="100" id="FlashID2" title="ICS Logo">
+          <param name="movie" value="../images/ICSLogo.swf" />
+          <param name="quality" value="high" />
+          <param name="wmode" value="opaque" />
+          <param name="swfversion" value="8.0.35.0" />
+          <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+          <!--<param name="expressinstall" value="../Scripts/expressInstall.swf" />-->
+          <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+          <!--[if !IE]>-->
+         <!-- <object type="application/x-shockwave-flash" data="../images/ICSLogo.swf" width="124" height="100">-->
+            <!--<![endif]-->
+            <!--<param name="quality" value="high" />
+            <param name="wmode" value="opaque" />
+            <param name="swfversion" value="8.0.35.0" />
+            <param name="expressinstall" value="../Scripts/expressInstall.swf" />-->
+            <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+            <!--<div>
+              <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+              <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+            </div>-->
+            <!--[if !IE]>-->
+          <!--</object>-->
+          <!--<![endif]-->
+        <!--</object>
+      </div>
+     -->
+     <div id="footer-navigation-bar" style="width:900px; height:100px; font-size:10px; font-weight:bold; padding:10px 0 0 40px">       
+           
+   			
+   		
+      		<div id="iconplacer" style="margin-left:70%;"><!-- and this div is important for the tutorial -->
+         		<a class="rssfollow" title="Subscribe to Rss" href="http://feeds.feedburner.com/" target="_blank"> RSS</a>
+         		<a class="facebook" title="Get ICS on Facebook" href="https://www.facebook.com/pages/Innovation-Communications-Systems-Ltd/349823621703509" target="_blank">Get ICS on Facebook</a>
+
+         		<a class="twitterfollow" title="Get ICS on Twitter" href="http://twitter.com/" target="_blank">Get ICS on Twitter</a>
+         		
+         		<a class="flickr" title="Get ICS on Flickrs" href="http://www.flickr.com/" target="_blank">Get ICS on Flickr</a>
+         		
+      		</div><!-- End Iconplacer -->
+   		
+   		
+	
+<ul>
+                <li><a href="index.html">Home</a> | </li>
+                <li><a href="products.html">Products</a> | </li>
+                <li><a href="services.html">Services</a> | </li>
+                <li><a href="research.html">Research</a> | </li>
+                <li><a href="clients.html">Clients</a> | </li>                
+                <li><a href="contactus.html">Contact Us</a> | </li>
+                <li ><a href="aboutus.html">About Us</a> | </li>
+                <li ><a href="sitemap.html">Sitemap</a>  </li>
+        </ul>
+     </div>
+     
+     <div align="center" style="color:#6CF; font-weight:bold; font-size:10px;" >
+	&copy; Copyright 2008 - 2010. All Rights Reserved. 
+	</div>
+    <!-- Histats.com  START  (standard)--><div align="right">
+<script type="text/javascript">document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));</script>
+<a href="http://www.histats.com" target="_blank" title="web stats" ><script  type="text/javascript" >
+try {Histats.start(1,1890368,4,1032,150,25,"00001000");
+Histats.track_hits();} catch(err){};
+</script></a>
+<noscript><a href="http://www.histats.com" target="_blank"><img align="right"  src="http://sstatic1.histats.com/0.gif?1890368&101" alt="web stats" border="0"></a></noscript></div>
+<!-- Histats.com  END  -->
+<!--    <a href="#" target="_blank">
+<img src="http://hitwebcounter.com/counter/counter.php?page=298315&style=0035&nbdigits=5&type=page&initCount=0" title="You are our Visiting Guest. Thank You" Alt="You are our Visiting Guest. Thank You"   border="1" align="right" style="margin-right:10%;" >
+</a>-->
+
+ <!--<a href="http://www.digits.com" target="_blank">
+    <img src="http://counter.digits.com/?counter={9167fd9d-6a96-3984-4958-5b9b73aa3122}&template=simple" 
+     alt="Hit Counter by Digits"  align="right"  />
+  </a>-->
+
+<!-- hitwebcounter.com --><!--<a href="#" title="You are our Visiting Guest. Thank You" 
+target="_blank" style="font-family: Arial, Geneva , Helvetica, sans-serif; 
+font-size: 10px; color: #7C8076; text-decoration:none; float:right; padding-right:10%; ">
+<h5>You are Our Visitor</h5>-->
+
+<!--Counter end --></div>
+    
+  </div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e8c124404577890"></script>
+<!-- AddThis Button END -->
+            
+    
+<!-- end #footer --></div>
+</div>
+
+<script type="text/javascript">
+
+swfobject.registerObject("FlashID");
+swfobject.registerObject("FlashID2");
+swfobject.registerObject("FlashID");
+swfobject.registerObject("FlashID2");
+
+</script>
+</body>
+<!-- InstanceEnd --></html>

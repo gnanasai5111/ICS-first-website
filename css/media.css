@@ -1,0 +1,1691 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1023px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+
+  
+}
+@media (min-width: 601px) and (max-width: 767px) {
+  .copyright-container p {
+    margin-bottom: 0;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: calc(100% - 150px);
+    font-size: 40px;
+    left: 15%;
+    z-index: 10;
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+h1.heading-h1 {
+    font-size: 30px;
+    line-height: 20px;
+}
+#about {
+    padding: 40px 0;
+}
+p.about-text {
+    margin-top: 25px;
+    text-align: center;
+}
+.section-title {
+    font-size: 26px;
+    margin: 0 0 15px;
+}
+.section-title-divider {
+    margin-bottom: 20px;
+}
+body{
+    font-size: 15px;
+}
+button.btn.btn-primary.readmore {
+    margin-top: 20px;
+}
+p.section-about {
+    margin: 0px 10px;
+}
+img.img-responsive.pod-center {
+    margin: 0 auto;
+}
+h3.data-network {
+    font-size: 22px;
+    margin: 20px 0;
+    text-align: center;
+}
+p.data-network-content {
+    text-align: center;
+}
+section.our-services {
+    padding: 0 0 20px 0;
+}
+.subscribe {
+    padding: 40px 0px;
+}
+section.page-content {
+    padding: 40px 0px;
+}
+.page-content.parallax {
+    padding: 40px 0 40px 0;
+}
+p.achievements-content {
+    text-align: center;
+    margin: 0px 25px;
+}
+article.grid_4 {
+    width: 530px;
+    margin: 50px 0px 0px;
+}
+.process-box .img-container {
+    width: 64px;
+    height: 64px;  
+    left: 45%;
+    top: 20px;
+    margin-top: -60px;
+}
+.process-box {
+    background: #fff;
+    width: 100%;
+    float: right;
+    padding: 20px;
+}
+h3.quality-quality {
+    font-size: 22px;
+    text-align: center;
+    margin: 20px 0 20px;
+}
+p.improvement {
+    text-align: center;
+    margin: 0;
+}
+.page-content *[class*="grid_"] {
+    margin-bottom: 0;
+}
+section.intro {
+    padding: 40px 0px;
+}
+h2.our-partners {
+    font-size: 26px;
+}
+.container-fluid.iframe_map {
+    padding: 0;
+    margin: 0;
+}
+.footer-wrapper {
+    margin-top: 0;
+}
+.footer-wrapper {
+    padding: 40px 0px 0px;
+}
+.slider {
+    position: relative;
+    margin-top: 0;
+}
+.navbar {
+    margin-bottom: 0;
+}
+h2.subpage-h2-title {
+    margin-top: 30px;
+    text-align: center;
+}
+p.subpage-title-content {
+    text-align: center;
+}
+h3.careers-title {
+    font-size: 22px;
+    line-height: 26px;
+}
+section.careers-careers {
+    padding: 0 0 30px 0;
+}
+ul.footer-widget-container li.widget.widget_text.clearfix img {
+    display: table;
+    margin: 0 auto;
+}
+ul.footer-widget-container li.widget.widget_text.clearfix p {
+    text-align: center;
+    margin-bottom: 0;
+}
+h2.join-with-us.contact {
+    text-align: center;
+    margin-top: 0;
+    font-size: 26px;
+}
+.footer-widget-container li.widget:last-child {
+    margin-bottom: 30px;
+}
+.center-block {
+    margin-top: 20px;
+    text-align: center;
+}
+ul.contact-info-list li p {
+    text-align: center;
+}
+#page-title18 {
+    background-position: 70% 50%;
+}
+#page-title17 {
+    background-position: 20% 10%;
+    background-size: contain;
+}
+.breadcrumbs-text a {
+    font-size: 15px;
+}
+h2.our-partners.quality-standards {
+    font-size: 26px;
+    margin-top: 30px;
+    text-align: center;
+}
+ul.quality-check li {
+    width: 42%;
+    float: left;
+    margin-left: 17px;
+    font-size: 13px;
+}
+h2.our-partners.accreditation {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+h3.h3-awards {
+    font-size: 22px;
+    margin-top: 20px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #777;
+    text-align: center;
+}
+.modal-content {
+    width: 300px;
+    position: relative;
+    left: 5%;
+}
+img#image-gallery-image {
+    width: auto;
+    height: 500px;
+}
+  
+}
+
+
+@media screen and (max-width: 600px){
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: calc(100% - 150px);
+    font-size: 40px;
+    left: 15%;
+    z-index: 10;
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: center;
+}
+.modal-content {
+    width: 300px;
+    position: relative;
+    left: 5%;
+}
+img#image-gallery-image {
+    width: auto;
+    height: 500px;
+}
+
+h1.heading-h1 {
+    font-size: 30px;
+    line-height: 50px;
+}
+#about {
+    padding: 40px 0;
+}
+p.about-text {
+    margin-top: 25px;
+    text-align: center;
+}
+.section-title {
+    font-size: 26px;
+    margin: 0 0 15px;
+}
+.section-title-divider {
+    margin-bottom: 20px;
+}
+body{
+    font-size: 15px;
+}
+button.btn.btn-primary.readmore {
+    margin-top: 20px;
+}
+p.section-about {
+    margin: 0px 10px;
+}
+img.img-responsive.pod-center {
+    margin: 0 auto;
+}
+h3.data-network {
+    font-size: 22px;
+    margin: 20px 0;
+    text-align: center;
+}
+p.data-network-content {
+    text-align: center;
+}
+section.our-services {
+    padding: 0 0 20px 0;
+}
+.subscribe {
+    padding: 40px 0px;
+}
+section.page-content {
+    padding: 40px 0px;
+}
+.page-content.parallax {
+    padding: 40px 0 40px 0;
+}
+p.achievements-content {
+    text-align: center;
+    margin: 0px 25px;
+}
+article.grid_4 {
+    width: 530px;
+    margin: 50px 0px 0px;
+}
+.process-box .img-container {
+    width: 64px;
+    height: 64px;  
+    left: 45%;
+    top: 20px;
+    margin-top: -60px;
+}
+.process-box {
+    background: #fff;
+    width: 100%;
+    float: right;
+    padding: 20px;
+}
+h3.quality-quality {
+    font-size: 22px;
+    text-align: center;
+    margin: 20px 0 20px;
+}
+p.improvement {
+    text-align: center;
+    margin: 0;
+}
+.page-content *[class*="grid_"] {
+    margin-bottom: 0;
+}
+section.intro {
+    padding: 40px 0px;
+}
+h2.our-partners {
+    font-size: 26px;
+}
+.container-fluid.iframe_map {
+    padding: 0;
+    margin: 0;
+}
+.footer-wrapper {
+    margin-top: 0;
+}
+.footer-wrapper {
+    padding: 40px 0px 0px;
+}
+.copyright-container p {
+    margin-bottom: 0;
+}
+h2.subpage-h2-title {
+    margin-top: 30px;
+    text-align: center;
+}
+p.subpage-title-content {
+    text-align: center;
+}
+h3.careers-title {
+    font-size: 22px;
+    line-height: 26px;
+}
+section.careers-careers {
+    padding: 0 0 30px 0;
+}
+ul.footer-widget-container li.widget.widget_text.clearfix img {
+    display: table;
+    margin: 0 auto;
+}
+ul.footer-widget-container li.widget.widget_text.clearfix p {
+    text-align: center;
+    margin-bottom: 0;
+}
+h2.join-with-us.contact {
+    text-align: center;
+    margin-top: 0;
+    font-size: 26px;
+}
+.footer-widget-container li.widget:last-child {
+    margin-bottom: 30px;
+}
+.center-block {
+    margin-top: 20px;
+    text-align: center;
+}
+ul.contact-info-list li p {
+    text-align: center;
+}
+h2.subpage-h2-title {
+    margin-top: 30px;
+    text-align: center;
+}
+p.subpage-title-content {
+    text-align: center;
+}
+h3.careers-title {
+    font-size: 22px;
+    line-height: 26px;
+}
+section.careers-careers {
+    padding: 0 0 30px 0;
+}
+ul.footer-widget-container li.widget.widget_text.clearfix img {
+    display: table;
+    margin: 0 auto;
+}
+ul.footer-widget-container li.widget.widget_text.clearfix p {
+    text-align: center;
+    margin-bottom: 0;
+}
+h2.join-with-us.contact {
+    text-align: center;
+    margin-top: 0;
+    font-size: 26px;
+}
+.footer-widget-container li.widget:last-child {
+    margin-bottom: 30px;
+}
+.center-block {
+    margin-top: 20px;
+    text-align: center;
+}
+ul.contact-info-list li p {
+    text-align: center;
+}
+#page-title18 {
+    background-position: 70% 50%;
+}
+#page-title17 {
+    background-position: 20% 10%;
+    background-size: contain;
+}
+.breadcrumbs-text a {
+    font-size: 15px;
+}
+h2.our-partners.quality-standards {
+    font-size: 26px;
+    margin-top: 30px;
+    text-align: center;
+}
+ul.quality-check li {
+    width: 42%;
+    float: left;
+    margin-left: 17px;
+    font-size: 13px;
+}
+h2.our-partners.accreditation {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+h3.h3-awards {
+    font-size: 22px;
+    margin-top: 20px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #777;
+    text-align: center;
+}
+.modal-content {
+    width: 300px;
+    position: relative;
+    left: 5%;
+}
+img#image-gallery-image {
+    width: auto;
+    height: 500px;
+}
+}
+
+@media (min-width: 480px) and (max-width: 599px) {
+ .carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: calc(100% - 150px);
+    font-size: 40px;
+    left: 15%;
+    z-index: 10;
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+h1.heading-h1 {
+    font-size: 30px;
+    line-height: 50px;
+}
+#about {
+    padding: 40px 0;
+}
+p.about-text {
+    margin-top: 25px;
+    text-align: center;
+}
+.section-title {
+    font-size: 26px;
+    margin: 0 0 15px;
+}
+.section-title-divider {
+    margin-bottom: 20px;
+}
+body{
+    font-size: 15px;
+}
+button.btn.btn-primary.readmore {
+    margin-top: 20px;
+}
+p.section-about {
+    margin: 0px 10px;
+}
+img.img-responsive.pod-center {
+    margin: 0 auto;
+}
+h3.data-network {
+    font-size: 22px;
+    margin: 20px 0;
+    text-align: center;
+}
+p.data-network-content {
+    text-align: center;
+}
+section.our-services {
+    padding: 0 0 20px 0;
+}
+.subscribe {
+    padding: 40px 0px;
+}
+section.page-content {
+    padding: 40px 0px;
+}
+.page-content.parallax {
+    padding: 40px 0 40px 0;
+}
+p.achievements-content {
+    text-align: center;
+    margin: 0px 25px;
+}
+article.grid_4 {
+    width: 330px;
+    margin: 50px 0px 0px;
+}
+.process-box .img-container {
+    width: 64px;
+    height: 64px;  
+    left: 40%;
+    top: 20px;
+    margin-top: -60px;
+}
+.process-box {
+    background: #fff;
+    width: 90%;
+    float: right;
+    padding: 20px;
+}
+h3.quality-quality {
+    font-size: 22px;
+    text-align: center;
+    margin: 20px 0 20px;
+}
+p.improvement {
+    text-align: center;
+    margin: 0;
+}
+.page-content *[class*="grid_"] {
+    margin-bottom: 0;
+}
+section.intro {
+    padding: 40px 0px;
+}
+h2.our-partners {
+    font-size: 26px;
+}
+.container-fluid.iframe_map {
+    padding: 0;
+    margin: 0;
+}
+.footer-wrapper {
+    margin-top: 0;
+}
+.footer-wrapper {
+    padding: 40px 0px 0px;
+} 
+.copyright-container p {
+    margin-bottom: 0;
+}
+h2.subpage-h2-title {
+    margin-top: 30px;
+    text-align: center;
+}
+p.subpage-title-content {
+    text-align: center;
+}
+h3.careers-title {
+    font-size: 22px;
+    line-height: 26px;
+}
+section.careers-careers {
+    padding: 0 0 30px 0;
+}
+ul.footer-widget-container li.widget.widget_text.clearfix img {
+    display: table;
+    margin: 0 auto;
+}
+ul.footer-widget-container li.widget.widget_text.clearfix p {
+    text-align: center;
+    margin-bottom: 0;
+}
+h2.join-with-us.contact {
+    text-align: center;
+    margin-top: 0;
+    font-size: 26px;
+}
+.footer-widget-container li.widget:last-child {
+    margin-bottom: 30px;
+}
+.center-block {
+    margin-top: 20px;
+    text-align: center;
+}
+ul.contact-info-list li p {
+    text-align: center;
+}
+#page-title18 {
+    background-position: 70% 50%;
+}
+#page-title17 {
+    background-position: 20% 10%;
+    background-size: contain;
+}
+.breadcrumbs-text a {
+    font-size: 15px;
+}
+h2.our-partners.quality-standards {
+    font-size: 26px;
+    margin-top: 30px;
+    text-align: center;
+}
+ul.quality-check li {
+    width: 42%;
+    float: left;
+    margin-left: 17px;
+    font-size: 13px;
+}
+h2.our-partners.accreditation {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+h3.h3-awards {
+    font-size: 22px;
+    margin-top: 20px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #777;
+    text-align: center;
+}
+.modal-content {
+    width: 300px;
+    position: relative;
+    left: 5%;
+}
+img#image-gallery-image {
+    width: auto;
+    height: 500px;
+}
+.process-box {
+    min-height: 340px;
+}
+
+
+}
+
+@media screen and (max-width: 414px) {
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: calc(100% - 150px);
+    font-size: 40px;
+    left: 15%;
+    z-index: 10;
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+h1.heading-h1 {
+    font-size: 30px;
+    line-height: 50px;
+}
+#about {
+    padding: 40px 0;
+}
+p.about-text {
+    margin-top: 25px;
+    text-align: center;
+}
+.section-title {
+    font-size: 26px;
+    margin: 0 0 15px;
+}
+.section-title-divider {
+    margin-bottom: 20px;
+}
+body{
+    font-size: 15px;
+}
+button.btn.btn-primary.readmore {
+    margin-top: 20px;
+}
+p.section-about {
+    margin: 0px 10px;
+}
+img.img-responsive.pod-center {
+    margin: 0 auto;
+}
+h3.data-network {
+    font-size: 22px;
+    margin: 20px 0;
+    text-align: center;
+}
+p.data-network-content {
+    text-align: center;
+}
+section.our-services {
+    padding: 0 0 20px 0;
+}
+.subscribe {
+    padding: 40px 0px;
+}
+section.page-content {
+    padding: 40px 0px;
+}
+.page-content.parallax {
+    padding: 40px 0 40px 0;
+}
+p.achievements-content {
+    text-align: center;
+    margin: 0px 25px;
+}
+article.grid_4 {
+    width: 330px;
+    margin: 50px 0px 0px;
+}
+.process-box .img-container {
+    width: 64px;
+    height: 64px;  
+    left: 40%;
+    top: 20px;
+    margin-top: -60px;
+}
+.process-box {
+    background: #fff;
+    width: 90%;
+    float: right;
+    padding: 20px;
+}
+h3.quality-quality {
+    font-size: 22px;
+    text-align: center;
+    margin: 20px 0 20px;
+}
+p.improvement {
+    text-align: center;
+    margin: 0;
+}
+.page-content *[class*="grid_"] {
+    margin-bottom: 0;
+}
+section.intro {
+    padding: 40px 0px;
+}
+h2.our-partners {
+    font-size: 26px;
+}
+.container-fluid.iframe_map {
+    padding: 0;
+    margin: 0;
+}
+.footer-wrapper {
+    margin-top: 0;
+}
+.footer-wrapper {
+    padding: 40px 0px 0px;
+}
+.copyright-container p {
+    margin-bottom: 0;
+}
+h2.subpage-h2-title {
+    margin-top: 30px;
+    text-align: center;
+}
+p.subpage-title-content {
+    text-align: center;
+}
+h3.careers-title {
+    font-size: 22px;
+    line-height: 26px;
+}
+section.careers-careers {
+    padding: 0 0 30px 0;
+}
+ul.footer-widget-container li.widget.widget_text.clearfix img {
+    display: table;
+    margin: 0 auto;
+}
+ul.footer-widget-container li.widget.widget_text.clearfix p {
+    text-align: center;
+    margin-bottom: 0;
+}
+h2.join-with-us.contact {
+    text-align: center;
+    margin-top: 0;
+    font-size: 26px;
+}
+.footer-widget-container li.widget:last-child {
+    margin-bottom: 30px;
+}
+.center-block {
+    margin-top: 20px;
+    text-align: center;
+}
+ul.contact-info-list li p {
+    text-align: center;
+}
+#page-title18 {
+    background-position: 70% 50%;
+}
+#page-title17 {
+    background-position: 20% 10%;
+    background-size: contain;
+}
+.breadcrumbs-text a {
+    font-size: 15px;
+}
+h2.our-partners.quality-standards {
+    font-size: 26px;
+    margin-top: 30px;
+    text-align: center;
+}
+ul.quality-check li {
+    width: 42%;
+    float: left;
+    margin-left: 17px;
+    font-size: 13px;
+}
+h2.our-partners.accreditation {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+h3.h3-awards {
+    font-size: 22px;
+    margin-top: 20px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #777;
+    text-align: center;
+}
+.modal-content {
+    width: 300px;
+    position: relative;
+    left: 5%;
+}
+img#image-gallery-image {
+    width: auto;
+    height: 500px;
+}
+.process-box {
+    min-height: 340px;
+}
+
+
+}
+
+@media screen and (max-width: 411px) {
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: calc(100% - 150px);
+    font-size: 40px;
+    left: 15%;
+    z-index: 10;
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+h1.heading-h1 {
+    font-size: 30px;
+    line-height: 50px;
+}
+#about {
+    padding: 40px 0;
+}
+p.about-text {
+    margin-top: 25px;
+    text-align: center;
+}
+.section-title {
+    font-size: 26px;
+    margin: 0 0 15px;
+}
+.section-title-divider {
+    margin-bottom: 20px;
+}
+body{
+    font-size: 15px;
+}
+button.btn.btn-primary.readmore {
+    margin-top: 20px;
+}
+p.section-about {
+    margin: 0px 10px;
+}
+img.img-responsive.pod-center {
+    margin: 0 auto;
+}
+h3.data-network {
+    font-size: 22px;
+    margin: 20px 0;
+    text-align: center;
+}
+p.data-network-content {
+    text-align: center;
+}
+section.our-services {
+    padding: 0 0 20px 0;
+}
+.subscribe {
+    padding: 40px 0px;
+}
+section.page-content {
+    padding: 40px 0px;
+}
+.page-content.parallax {
+    padding: 40px 0 40px 0;
+}
+p.achievements-content {
+    text-align: center;
+    margin: 0px 25px;
+}
+article.grid_4 {
+    width: 330px;
+    margin: 50px 0px 0px;
+}
+.process-box .img-container {
+    width: 64px;
+    height: 64px;  
+    left: 40%;
+    top: 20px;
+    margin-top: -60px;
+}
+.process-box {
+    background: #fff;
+    width: 90%;
+    float: right;
+    padding: 20px;
+}
+h3.quality-quality {
+    font-size: 22px;
+    text-align: center;
+    margin: 20px 0 20px;
+}
+p.improvement {
+    text-align: center;
+    margin: 0;
+}
+.page-content *[class*="grid_"] {
+    margin-bottom: 0;
+}
+section.intro {
+    padding: 40px 0px;
+}
+h2.our-partners {
+    font-size: 26px;
+}
+.container-fluid.iframe_map {
+    padding: 0;
+    margin: 0;
+}
+.footer-wrapper {
+    margin-top: 0;
+}
+.footer-wrapper {
+    padding: 40px 0px 0px;
+}
+.copyright-container p {
+    margin-bottom: 0;
+}
+h2.subpage-h2-title {
+    margin-top: 30px;
+    text-align: center;
+}
+p.subpage-title-content {
+    text-align: center;
+}
+h3.careers-title {
+    font-size: 22px;
+    line-height: 26px;
+}
+section.careers-careers {
+    padding: 0 0 30px 0;
+}
+ul.footer-widget-container li.widget.widget_text.clearfix img {
+    display: table;
+    margin: 0 auto;
+}
+ul.footer-widget-container li.widget.widget_text.clearfix p {
+    text-align: center;
+    margin-bottom: 0;
+}
+h2.join-with-us.contact {
+    text-align: center;
+    margin-top: 0;
+    font-size: 26px;
+}
+.footer-widget-container li.widget:last-child {
+    margin-bottom: 30px;
+}
+.center-block {
+    margin-top: 20px;
+    text-align: center;
+}
+ul.contact-info-list li p {
+    text-align: center;
+}
+#page-title18 {
+    background-position: 70% 50%;
+}
+#page-title17 {
+    background-position: 20% 10%;
+    background-size: contain;
+}
+.breadcrumbs-text a {
+    font-size: 15px;
+}
+h2.our-partners.quality-standards {
+    font-size: 26px;
+    margin-top: 30px;
+    text-align: center;
+}
+ul.quality-check li {
+    width: 42%;
+    float: left;
+    margin-left: 17px;
+    font-size: 13px;
+}
+h2.our-partners.accreditation {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+h3.h3-awards {
+    font-size: 22px;
+    margin-top: 20px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #777;
+    text-align: center;
+}
+.modal-content {
+    width: 300px;
+    position: relative;
+    left: 5%;
+}
+img#image-gallery-image {
+    width: auto;
+    height: 500px;
+}
+.process-box {
+    min-height: 340px;
+}
+
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+
+@media (min-width: 375px) and (max-width: 410px) {
+ .carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: calc(100% - 150px);
+    font-size: 40px;
+    left: 15%;
+    z-index: 10;
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+h1.heading-h1 {
+    font-size: 30px;
+    line-height: 50px;
+}
+#about {
+    padding: 40px 0;
+}
+p.about-text {
+    margin-top: 25px;
+    text-align: center;
+}
+.section-title {
+    font-size: 26px;
+    margin: 0 0 15px;
+}
+.section-title-divider {
+    margin-bottom: 20px;
+}
+body{
+    font-size: 15px;
+}
+button.btn.btn-primary.readmore {
+    margin-top: 20px;
+}
+p.section-about {
+    margin: 0px 10px;
+}
+img.img-responsive.pod-center {
+    margin: 0 auto;
+}
+h3.data-network {
+    font-size: 22px;
+    margin: 20px 0;
+    text-align: center;
+}
+p.data-network-content {
+    text-align: center;
+}
+section.our-services {
+    padding: 0 0 20px 0;
+}
+.subscribe {
+    padding: 40px 0px;
+}
+section.page-content {
+    padding: 40px 0px;
+}
+.page-content.parallax {
+    padding: 40px 0 40px 0;
+}
+p.achievements-content {
+    text-align: center;
+    margin: 0px 25px;
+}
+article.grid_4 {
+    width: 330px;
+    margin: 50px 0px 0px;
+}
+.process-box .img-container {
+    width: 64px;
+    height: 64px;  
+    left: 40%;
+    top: 20px;
+    margin-top: -60px;
+}
+.process-box {
+    background: #fff;
+    width: 90%;
+    float: right;
+    padding: 20px;
+}
+h3.quality-quality {
+    font-size: 22px;
+    text-align: center;
+    margin: 20px 0 20px;
+}
+p.improvement {
+    text-align: center;
+    margin: 0;
+}
+.page-content *[class*="grid_"] {
+    margin-bottom: 0;
+}
+section.intro {
+    padding: 40px 0px;
+}
+h2.our-partners {
+    font-size: 26px;
+}
+.container-fluid.iframe_map {
+    padding: 0;
+    margin: 0;
+}
+.footer-wrapper {
+    margin-top: 0;
+}
+.footer-wrapper {
+    padding: 40px 0px 0px;
+} 
+.copyright-container p {
+    margin-bottom: 0;
+}
+h2.subpage-h2-title {
+    margin-top: 30px;
+    text-align: center;
+}
+p.subpage-title-content {
+    text-align: center;
+}
+h3.careers-title {
+    font-size: 22px;
+    line-height: 26px;
+}
+section.careers-careers {
+    padding: 0 0 30px 0;
+}
+ul.footer-widget-container li.widget.widget_text.clearfix img {
+    display: table;
+    margin: 0 auto;
+}
+ul.footer-widget-container li.widget.widget_text.clearfix p {
+    text-align: center;
+    margin-bottom: 0;
+}
+h2.join-with-us.contact {
+    text-align: center;
+    margin-top: 0;
+    font-size: 26px;
+}
+.footer-widget-container li.widget:last-child {
+    margin-bottom: 30px;
+}
+.center-block {
+    margin-top: 20px;
+    text-align: center;
+}
+ul.contact-info-list li p {
+    text-align: center;
+}
+#page-title18 {
+    background-position: 70% 50%;
+}
+#page-title17 {
+    background-position: 20% 10%;
+    background-size: contain;
+}
+.breadcrumbs-text a {
+    font-size: 15px;
+}
+h2.our-partners.quality-standards {
+    font-size: 26px;
+    margin-top: 30px;
+    text-align: center;
+}
+ul.quality-check li {
+    width: 42%;
+    float: left;
+    margin-left: 17px;
+    font-size: 13px;
+}
+h2.our-partners.accreditation {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+h3.h3-awards {
+    font-size: 22px;
+    margin-top: 20px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #777;
+    text-align: center;
+}
+.modal-content {
+    width: 300px;
+    position: relative;
+    left: 5%;
+}
+img#image-gallery-image {
+    width: auto;
+    height: 500px;
+}
+.process-box {
+    min-height: 340px;
+}
+
+
+
+}
+
+@media screen and (max-width: 360px) {
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: calc(100% - 150px);
+    font-size: 40px;
+    left: 15%;
+    z-index: 10;
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+h1.heading-h1 {
+    font-size: 30px;
+    line-height: 50px;
+}
+#about {
+    padding: 40px 0;
+}
+p.about-text {
+    margin-top: 25px;
+    text-align: center;
+}
+.section-title {
+    font-size: 26px;
+    margin: 0 0 15px;
+}
+.section-title-divider {
+    margin-bottom: 20px;
+}
+body{
+    font-size: 15px;
+}
+button.btn.btn-primary.readmore {
+    margin-top: 20px;
+}
+p.section-about {
+    margin: 0px 10px;
+}
+img.img-responsive.pod-center {
+    margin: 0 auto;
+}
+h3.data-network {
+    font-size: 22px;
+    margin: 20px 0;
+    text-align: center;
+}
+p.data-network-content {
+    text-align: center;
+}
+section.our-services {
+    padding: 0 0 20px 0;
+}
+.subscribe {
+    padding: 40px 0px;
+}
+section.page-content {
+    padding: 40px 0px;
+}
+.page-content.parallax {
+    padding: 40px 0 40px 0;
+}
+p.achievements-content {
+    text-align: center;
+    margin: 0px 25px;
+}
+article.grid_4 {
+    width: 330px;
+    margin: 50px 0px 0px;
+}
+.process-box .img-container {
+    width: 64px;
+    height: 64px;  
+    left: 40%;
+    top: 20px;
+    margin-top: -60px;
+}
+.process-box {
+    background: #fff;
+    width: 90%;
+    float: right;
+    padding: 20px;
+}
+h3.quality-quality {
+    font-size: 22px;
+    text-align: center;
+    margin: 20px 0 20px;
+}
+p.improvement {
+    text-align: center;
+    margin: 0;
+}
+.page-content *[class*="grid_"] {
+    margin-bottom: 0;
+}
+section.intro {
+    padding: 40px 0px;
+}
+h2.our-partners {
+    font-size: 26px;
+}
+.container-fluid.iframe_map {
+    padding: 0;
+    margin: 0;
+}
+.footer-wrapper {
+    margin-top: 0;
+}
+.footer-wrapper {
+    padding: 40px 0px 0px;
+}
+.copyright-container p {
+    margin-bottom: 0;
+}
+h2.subpage-h2-title {
+    margin-top: 30px;
+    text-align: center;
+}
+p.subpage-title-content {
+    text-align: center;
+}
+h3.careers-title {
+    font-size: 22px;
+    line-height: 26px;
+}
+section.careers-careers {
+    padding: 0 0 30px 0;
+}
+ul.footer-widget-container li.widget.widget_text.clearfix img {
+    display: table;
+    margin: 0 auto;
+}
+ul.footer-widget-container li.widget.widget_text.clearfix p {
+    text-align: center;
+    margin-bottom: 0;
+}
+h2.join-with-us.contact {
+    text-align: center;
+    margin-top: 0;
+    font-size: 26px;
+}
+.footer-widget-container li.widget:last-child {
+    margin-bottom: 30px;
+}
+.center-block {
+    margin-top: 20px;
+    text-align: center;
+}
+ul.contact-info-list li p {
+    text-align: center;
+}
+#page-title18 {
+    background-position: 70% 50%;
+}
+#page-title17 {
+    background-position: 20% 10%;
+    background-size: contain;
+}
+.breadcrumbs-text a {
+    font-size: 15px;
+}
+h2.our-partners.quality-standards {
+    font-size: 26px;
+    margin-top: 30px;
+    text-align: center;
+}
+ul.quality-check li {
+    width: 42%;
+    float: left;
+    margin-left: 17px;
+    font-size: 13px;
+}
+h2.our-partners.accreditation {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+h3.h3-awards {
+    font-size: 22px;
+    margin-top: 20px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #777;
+    text-align: center;
+}
+.modal-content {
+    width: 300px;
+    position: relative;
+    left: 5%;
+}
+img#image-gallery-image {
+    width: auto;
+    height: 500px;
+}
+.process-box {
+    min-height: 340px;
+}
+
+
+}
+
+@media screen and (max-width: 320px) {
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: calc(100% - 150px);
+    font-size: 40px;
+    left: 15%;
+    z-index: 10;
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+h1.heading-h1 {
+    font-size: 30px;
+    line-height: 50px;
+}
+#about {
+    padding: 40px 0;
+}
+p.about-text {
+    margin-top: 25px;
+    text-align: center;
+}
+.section-title {
+    font-size: 26px;
+    margin: 0 0 15px;
+}
+.section-title-divider {
+    margin-bottom: 20px;
+}
+body{
+    font-size: 15px;
+}
+button.btn.btn-primary.readmore {
+    margin-top: 20px;
+}
+p.section-about {
+    margin: 0px 10px;
+}
+img.img-responsive.pod-center {
+    margin: 0 auto;
+}
+h3.data-network {
+    font-size: 22px;
+    margin: 20px 0;
+    text-align: center;
+}
+p.data-network-content {
+    text-align: center;
+}
+section.our-services {
+    padding: 0 0 20px 0;
+}
+.subscribe {
+    padding: 40px 0px;
+}
+section.page-content {
+    padding: 40px 0px;
+}
+.page-content.parallax {
+    padding: 40px 0 40px 0;
+}
+p.achievements-content {
+    text-align: center;
+    margin: 0px 25px;
+}
+article.grid_4 {
+    width: 330px;
+    margin: 50px 0px 0px;
+}
+.process-box .img-container {
+    width: 64px;
+    height: 64px;  
+    left: 40%;
+    top: 20px;
+    margin-top: -60px;
+}
+.process-box {
+    background: #fff;
+    width: 90%;
+    float: right;
+    padding: 20px;
+}
+h3.quality-quality {
+    font-size: 22px;
+    text-align: center;
+    margin: 20px 0 20px;
+}
+p.improvement {
+    text-align: center;
+    margin: 0;
+}
+.page-content *[class*="grid_"] {
+    margin-bottom: 0;
+}
+section.intro {
+    padding: 40px 0px;
+}
+h2.our-partners {
+    font-size: 26px;
+}
+.container-fluid.iframe_map {
+    padding: 0;
+    margin: 0;
+}
+.footer-wrapper {
+    margin-top: 0;
+}
+.footer-wrapper {
+    padding: 40px 0px 0px;
+}
+.copyright-container p {
+    margin-bottom: 0;
+}
+h2.subpage-h2-title {
+    margin-top: 30px;
+    text-align: center;
+}
+p.subpage-title-content {
+    text-align: center;
+}
+h3.careers-title {
+    font-size: 22px;
+    line-height: 26px;
+}
+section.careers-careers {
+    padding: 0 0 30px 0;
+}
+ul.footer-widget-container li.widget.widget_text.clearfix img {
+    display: table;
+    margin: 0 auto;
+}
+ul.footer-widget-container li.widget.widget_text.clearfix p {
+    text-align: center;
+    margin-bottom: 0;
+}
+h2.join-with-us.contact {
+    text-align: center;
+    margin-top: 0;
+    font-size: 26px;
+}
+.footer-widget-container li.widget:last-child {
+    margin-bottom: 30px;
+}
+.center-block {
+    margin-top: 20px;
+    text-align: center;
+}
+ul.contact-info-list li p {
+    text-align: center;
+}
+#page-title18 {
+    background-position: 70% 50%;
+}
+#page-title17 {
+    background-position: 20% 10%;
+    background-size: contain;
+}
+.breadcrumbs-text a {
+    font-size: 15px;
+}
+h2.our-partners.quality-standards {
+    font-size: 26px;
+    margin-top: 30px;
+    text-align: center;
+}
+ul.quality-check li {
+    width: 42%;
+    float: left;
+    margin-left: 17px;
+    font-size: 13px;
+}
+h2.our-partners.accreditation {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+h3.h3-awards {
+    font-size: 22px;
+    margin-top: 20px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #777;
+    text-align: center;
+}
+.modal-content {
+    width: 300px;
+    position: relative;
+    left: 5%;
+}
+img#image-gallery-image {
+    width: auto;
+    height: 500px;
+}
+.process-box {
+    min-height: 340px;
+}
+
+
+}

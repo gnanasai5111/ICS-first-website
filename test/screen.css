@@ -1,0 +1,345 @@
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	/*background:#fff;*/
+	min-width:600px;    	/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	color: #666;
+	font: 80% Arial, Helvetica, sans-serif;
+	
+	background-image:url(images/bg.png); background-repeat:repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+a {
+	color:#369;
+}
+a:hover {
+	/*color:#FF0;
+	background:#F60;
+	text-decoration:none;*/
+}
+
+a:hover img{
+    background-color:transparent;
+	background:none;
+	text-decoration:none;
+}
+h1, h2, h3 {
+	margin:.8em 0 .2em 0;
+	padding:0;
+}
+p {
+	margin:.4em 0 .8em 0;
+	padding:0;
+}
+img {
+	margin:10px 0 5px;
+	
+}
+
+#ads img {
+	display:block;
+	padding-top:10px;
+}
+
+/* Header styles */
+#header {
+	
+	/*clear:both;	*/
+	width:100%;
+	height:176px;
+	background-image:url(images/header2.png); background-repeat:repeat-x;
+	
+}
+/*#header {
+	/*border-bottom:1px solid #000;*/
+	/*background-image:url(images/header2.png); background-repeat:repeat-x;
+}*/
+#header p,
+#header h1,
+#header h2 {
+	padding:.4em 15px 0 15px;
+	margin:0;
+}
+
+#container { 
+	width: 100%;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #FFFFFF;	
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	
+} 
+
+
+/*#header ul {
+	clear:left;
+	width:100%;
+	list-style:none; 
+	 margin-left:27%; padding:1px 0 0 0;
+}
+#header ul li {
+	display:inline;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#header ul li a {
+	display:block;
+	float:left;
+	margin:0 0 0 1px;
+	padding:0 10px;
+	text-align:center;
+	background:#eee;
+	color:#000;
+	text-decoration:none;
+	position:relative;
+	left:15px;
+	line-height:1.3em;
+}
+#header ul li a:hover {
+	background:#369;
+	color:#fff;
+}
+#header ul li a.active,
+#header ul li a.active:hover {
+	color:#fff;
+	background:#000;
+	font-weight:bold;
+}
+#header ul li a span {
+	display:block;
+}*/
+/* 'widths' sub menu */
+#layoutdims {
+	clear:both;
+	background:#eee;
+	border-top:4px solid #000;
+	margin:0;
+	padding:6px 15px !important;
+	text-align:right;
+}
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+}
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;
+	position:relative;
+}
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;
+	overflow:hidden;
+}
+/* 2 Column (left menu) settings */
+.leftmenu {
+	/*background:#fff;*/		/* right column background colour */
+}
+.leftmenu .colleft {
+	right:75%;			/* right column width */
+	/*background:#f4f4f4;*/	/* left column background colour */
+	background-image:url(images/bg.png); background-repeat:repeat;
+}
+.leftmenu .col1 {
+	width:71%;			/* right column content width */
+	left:102%;			/* 100% plus left column left padding */
+	background-image:url(images/bg.png); background-repeat:repeat;
+}
+.leftmenu .col2 {
+	width:21%;			/* left column content width (column width minus left and right padding) */
+	left:6%;			/* (right column left and right padding) plus (left column left padding) */
+	background-image:url(images/bg.png); background-repeat:repeat;
+}
+/* Footer styles */
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+	border-top:1px solid #000;
+}
+#footer p {
+	padding:10px;
+	margin:0;
+}
+
+#sidebar1 {
+		float: left; /* since this element is floated, a width must be given */
+	width: 280px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
+	/*background: #FFF;*/ /* the background color will be displayed for the length of the content in the column, but no further */
+	padding:0 0 0 0;
+	/*background-image:url(images/bg.png); background-repeat:repeat;*/
+}
+/*code for sidebar or left side menu*/
+
+#sidebar1 h4 {
+	padding: 0 0 0 25px;
+    margin: 5px 15px;
+    letter-spacing: .5px;
+	background:url(images/square_arrow.gif); background-repeat:no-repeat; 0% .6em;
+	text-transform: none;	
+	color:#0099cc;
+	/*background-image:url(images/bg.png); background-repeat:repeat;*/
+}
+#sidebar1 ul.sidemenu {
+	list-style:none;
+	margin:10px 15px;
+	padding:0;
+    font-size: .9em;
+}
+
+#sidebar1 ul.sidemenu li {
+	margin-bottom:1px;
+	border: 1px solid #f2f2f2;
+}
+#sidebar1 ul.sidemenu a {
+	display: block;
+	/*font-weight: bold;*/
+	color:#666;
+	text-decoration:none;	
+	padding: 3px 5px 3px 10px;
+	background: #f2f2f2;
+	border-left: 5px solid #CCC;	
+	min-height: 10px;	
+}
+
+* html body #sidebar1 ul.sidemenu a { height: 18px; }
+
+#sidebar1 ul.sidemenu a:hover {
+	padding:3px 5px 3px 10px;	
+	color: #F60;
+	border-left:5px solid #0099cc;
+}
+
+/*end of side bar or left side menu*/
+.pageHead {
+	background:url(images/headerbullet.png) no-repeat 1px 1px; 
+	/*padding:45px 5px 11px 11px;*/
+	text-shadow: 1px 1px 1px #CCC;
+	_padding:2px 5px 10px 11px;
+	font-weight:bold;
+	color:#09c; width:98%; 
+	height:34px;
+	margin-top:20px;
+}
+.clientsHover:hover { font-size:15px; color:#06C; font-weight:bold;} /* for clients page a:hover*/
+.pageHeadText
+{
+	margin-left:40px; margin-top:-8px; 
+	}
+	
+	
+	.tree {
+	margin:5px 0 20px 5px;
+	border-top:1px solid #0cf;
+	font-size:0.9em;
+	padding:0 0 0 5px;
+	color:#666;
+	width:95%;
+}
+#list{
+list-style-image:url(images/bullet-icon.gif);
+background-repeat: no-repeat; line-height:1.8em; margin-left:25px; 
+}
+a.clients
+{
+	text-decoration:none;
+}
+a.clients:hover
+{
+	text-decoration:none;
+
+background-image:url(clients/DRDO-logo.png); top:15%; left:60%; position:fixed;
+	
+	}
+#sitemaplist{
+list-style-image:url(images/bullet-icon.gif);
+background-repeat: no-repeat; line-height:1.2em; margin-left:25px; 
+}
+#DARlist{
+list-style-image:url(images/bullet-icon.gif);
+background-repeat: no-repeat; line-height:1.5em; 
+}
+.margin_r_20 { margin-right: 10px; }
+
+.section_w940 {	
+	width: 100%;
+}
+
+#footer-navigation-bar ul { margin: 0; margin-left: 40%; padding: 35px 0 0; float: left; }
+        #footer-navigation-bar ul li { float: left; list-style-type: none; color: #B3EDFF; margin-right: 10px; text-transform: uppercase; }
+        #footer-navigation-bar ul li a { color: #b3edff; }
+		
+.download-pdf-block
+  {
+	background:url(images/icon-pdf.gif) no-repeat;
+	margin:8px 5px 2px 0;
+	padding: 0 0 0 14px; font-size:10px; color:#09C	
+	
+}
+	
+	
+.style4 
+{	/*color: #8b8334;
+	font-weight: bold;*/
+	text-align:justify;
+	/*margin:0 10px 15px 20px;*/
+	line-height:1.8em;
+	/*top:45%; left:35%; position:absolute;*/
+}
+
+.welcomeText {
+	text-align:justify;
+	margin:0 10px 15px 25px;
+	line-height:1.8em;
+}
+
+#search { position: absolute; display: none; top: 1px; right: 6px; padding-right: 3px; width: 210px; background:url(images/search.png) no-repeat 0 0; }
+#search .field { display: inline; float: left; padding: 5px 15px 4px; width: 99px; background: none; border: 0; }
+#search .submit-button { display: inline; float: right; padding: 2px 0 8px; width: 38px; border: 0; background: 0; cursor: pointer; }
+#search .retract-button { font-size: 0; line-height: 0; text-indent: -4000px; display: block; float: left; padding-left: 20px; width: 15px; height: 30px; background:url(images/retract-button.png) no-repeat 50% 50%; cursor: pointer; }
+
+.search-expand { position: absolute; top: 1px; right: 5px; width: 58px; height: 30px; cursor: pointer; background:url(images/search-expand.png) no-repeat 0 0;  }
+
+ .btn-more { background:url(home/css/images/btn-more.png) no-repeat 0 0; width: 83px; height: 26px; font-size: 11px; line-height: 24px; color: #fff; text-align: center; display: block; text-decoration: none; position: absolute; left:13px;bottom:13px; }
+.btn-more:hover { background:url(home/css/images/btn-more-hover.png) no-repeat 0 0; width: 83px; height: 26px; font-size: 11px; line-height: 24px; color: #333; text-align: center; display: block; text-decoration: none; position: absolute; left:13px;bottom:13px; }
+
+#moreButton { background:url(images/moreButton.png) no-repeat 0 0; width: 83px; height: 26px; font-size: 11px; line-height: 24px; color: #fff; text-align: center; text-decoration: none; display: block; }
+ #moreButton:hover { background:url(images/moreButton-hover.png) no-repeat 0 0; width: 83px; height: 26px; font-size: 11px; line-height: 24px; color: #333; text-align: center; display: block; text-decoration: none; }
+ 
+ #SecurityBox { background:url(home/css/images/box-white-bg1.gif) no-repeat 0 0; width: 264px; height: 199px; padding: 14px 18px 49px 18px; position:inline; }
+ 
+ 
+ 
+ #main { padding: 0 0 18px 0; }
+
+.boxes { padding: 0 0 17px 0; }
+.boxes .box-white { margin: 0 22px 0 0; }
+.boxes .box-white-last { margin:0; }
+.box-white { background:url(home/css/images/box-white-bg1.gif) no-repeat 0 0; width: 264px; height: 199px; padding: 14px 18px 49px 18px; position: relative; }
+.box-white h2  { font-size: 16px; line-height: 19px; color: #287db3; border-bottom: 1px dotted #dcdcdc; padding: 0 0 6px 0; margin: 0 0 13px 0; }
+.box-white p {  }
+.box-white img { margin: 0 10px 0 0; }
+.box-white .item { border-bottom: 1px dotted #dcdcdc; padding: 0 0 10px 0; margin: 0 0 10px 0; }
+.box-white .item span { font-size: 10px; line-height: 13px; color: #4372a5; display: block; }
+.box-white .item p {  }
+.box-white .item-last { border:0; padding:0; margin:0; }
+.box-white .more { position: absolute; left:25px; bottom:30px; }
+.box-white .btn-more { background: url(images/btn-more.png) no-repeat 0 0; width: 83px; height: 26px; font-size: 11px; line-height: 24px; color: #fff; text-align: center; display: block; text-decoration: none; position: absolute; left:13px;bottom:13px; }
+.box-white .btn-more:hover { background: url(images/btn-more-hover.png) no-repeat 0 0; width: 83px; height: 26px; font-size: 11px; line-height: 24px; color: #333; text-align: center; display: block; text-decoration: none; position: absolute; left:13px;bottom:13px; }
+.soc-rss { background: url(images/soc-rss.gif) no-repeat 0 0; width: 22px; height: 22px; text-decoration: none; }
+
+#content { width: 590px; }
+#content h2, #sidebar h2 { font-size: 16px; line-height: 19px; color: #287db3; border-bottom: 1px dotted #dcdcdc; padding: 0 0 10px 0; margin: 0 0 12px 0; }
